@@ -210,6 +210,11 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 837f95abd53879444bb55ce8d8343887, type: 2}
+    - target: {fileID: 58013281857777318, guid: a86ea141a28ba4249af23326ba16f0e5,
+        type: 2}
+      propertyPath: m_Radius
+      value: 0.34
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
   m_IsPrefabParent: 0
@@ -263,3 +268,4 @@ MonoBehaviour:
   SideRooms:
   - {fileID: 1695782310788548, guid: 2c577e247b00b784a993441aa4d2798d, type: 2}
   - {fileID: 1111790537212252, guid: 59e1d157832b49b42b9bf50b8aee329a, type: 2}
+  - {fileID: 1465403601769766, guid: cd2d808db8e98144c97689ec1b371617, type: 2}
