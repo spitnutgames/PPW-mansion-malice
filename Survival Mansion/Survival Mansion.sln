@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survival Mansion", "Survival Mansion.csproj", "{18EDE496-7EFC-7957-44FC-B9EBEEDB5DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survival Mansion.Editor", "Survival Mansion.Editor.csproj", "{80B922AE-E024-BC7B-4F09-77EFF186FD9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18EDE496-7EFC-7957-44FC-B9EBEEDB5DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EDE496-7EFC-7957-44FC-B9EBEEDB5DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EDE496-7EFC-7957-44FC-B9EBEEDB5DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EDE496-7EFC-7957-44FC-B9EBEEDB5DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B922AE-E024-BC7B-4F09-77EFF186FD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B922AE-E024-BC7B-4F09-77EFF186FD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B922AE-E024-BC7B-4F09-77EFF186FD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B922AE-E024-BC7B-4F09-77EFF186FD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
