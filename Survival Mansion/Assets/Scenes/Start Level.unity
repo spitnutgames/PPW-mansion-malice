@@ -161,34 +161,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e4d67ae26a15ce4092b974e3ed734e9, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1014401851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1014401852}
-  m_Layer: 0
-  m_Name: Melee Attack
-  m_TagString: Untagged
-  m_Icon: {fileID: -982381405332843317, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1014401852
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1014401851}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 0.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1621856640}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1414829396
 Prefab:
   m_ObjectHideFlags: 0
@@ -228,31 +200,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 111921211957053892, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: 7400000, guid: b3863bb55b92fc1418fb3dca8aecb5a4, type: 2}
     - target: {fileID: 95621626771704598, guid: a86ea141a28ba4249af23326ba16f0e5,
         type: 2}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 837f95abd53879444bb55ce8d8343887, type: 2}
-    - target: {fileID: 58013281857777318, guid: a86ea141a28ba4249af23326ba16f0e5,
+    - target: {fileID: 111921211957053892, guid: a86ea141a28ba4249af23326ba16f0e5,
         type: 2}
-      propertyPath: m_Radius
-      value: 0.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 114406441453271628, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: meleePoint
+      propertyPath: m_Animation
       value: 
-      objectReference: {fileID: 1014401852}
-    - target: {fileID: 114406441453271628, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: meleeRange
-      value: 0.5
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7400000, guid: b3863bb55b92fc1418fb3dca8aecb5a4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
   m_IsPrefabParent: 0

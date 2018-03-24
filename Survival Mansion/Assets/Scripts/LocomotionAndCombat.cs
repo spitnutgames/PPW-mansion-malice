@@ -18,13 +18,13 @@ public class LocomotionAndCombat : MonoBehaviour {
     private void Update()
     {
         agility = statsScript.agility;
+        meleeDamage = statsScript.agility / 5;
     }
     private void Start()
     {
         statsScript = player.GetComponent<PlayerStats>();
         anim = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
-        meleeDamage = statsScript.agility / 5;
     }
     void FixedUpdate () {
         Controls();
