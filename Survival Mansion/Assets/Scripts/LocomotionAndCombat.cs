@@ -35,7 +35,7 @@ public class LocomotionAndCombat : MonoBehaviour {
             Collider2D[] hitObjects = Physics2D.OverlapCircleAll(meleePoint.position, meleeRange);
             for (int i = 0; i < hitObjects.Length; i++)
             {
-                hitObjects[i].SendMessage("TakeDamage", meleeDamage, SendMessageOptions.DontRequireReceiver);
+                hitObjects[i].SendMessage("TakeHit", meleeDamage, SendMessageOptions.DontRequireReceiver);
                 Debug.Log("Hit "+hitObjects[i].name);
             }
         }

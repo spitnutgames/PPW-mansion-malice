@@ -29,6 +29,7 @@ GameObject:
   - component: {fileID: 114084361570372944}
   - component: {fileID: 114971057947433546}
   - component: {fileID: 114530271495141080}
+  - component: {fileID: 114692321846395028}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -231,6 +232,21 @@ MonoBehaviour:
   guile: 500
   crafting: 500
   wit: 500
+--- !u!114 &114692321846395028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1273127374921334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066194472055d054887896ecf691f1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closeRange: 100
+  timeToCheckCloseRange: 0.5
+  longRange: 1000
+  timeToCheckLongRange: 1
 --- !u!114 &114971057947433546
 MonoBehaviour:
   m_ObjectHideFlags: 1
