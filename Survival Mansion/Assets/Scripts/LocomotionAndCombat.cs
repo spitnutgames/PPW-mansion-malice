@@ -43,22 +43,22 @@ public class LocomotionAndCombat : MonoBehaviour {
 
         if (Input.GetKey("a") & Input.GetKey("w")) {
             rb2D.AddForce(new Vector2(-agility*20,agility*20) * Time.fixedDeltaTime);
-            rb2D.rotation = 45;
+            rb2D.rotation = -0;
         }
         else if (Input.GetKey("w") & Input.GetKey("d"))
         {
             rb2D.AddForce(new Vector2(agility*20, agility*20) * Time.fixedDeltaTime);
-            rb2D.rotation = -45;
+            rb2D.rotation = -0;
         }
         else  if (Input.GetKey("s") & Input.GetKey("d"))
         {
             rb2D.AddForce(new Vector2(agility*20, -agility*20) * Time.fixedDeltaTime);
-            rb2D.rotation = -135;
+            rb2D.rotation = -0;
         }
         else if (Input.GetKey("s") & Input.GetKey("a"))
         {
             rb2D.AddForce(new Vector2(-agility*20, -agility*20) * Time.fixedDeltaTime);
-            rb2D.rotation = 135;
+            rb2D.rotation = 0;
         }
         else if (Input.GetKey("w"))
         {
@@ -68,17 +68,17 @@ public class LocomotionAndCombat : MonoBehaviour {
         else if (Input.GetKey("a"))
         {
             rb2D.AddForce(new Vector2(-agility*20, 0) * Time.fixedDeltaTime);
-            rb2D.rotation = 90;
+            rb2D.rotation = -0;
         }
         else if (Input.GetKey("s"))
         {
             rb2D.AddForce(new Vector2(0, -agility*20) * Time.fixedDeltaTime);
-            rb2D.rotation = 180;
+            rb2D.rotation = 0;
         }
         else if (Input.GetKey("d"))
         {
             rb2D.AddForce(new Vector2(agility*20, 0) * Time.fixedDeltaTime);
-            rb2D.rotation = -90;
+            rb2D.rotation = 0;
         }
     }
 }
