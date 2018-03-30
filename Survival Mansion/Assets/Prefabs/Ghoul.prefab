@@ -186,7 +186,7 @@ MonoBehaviour:
   attackRange: 1
   attacksPerSecond: 1
   damage: 1
-  movementSpeed: 0
+  movementSpeed: 1
   chaseSpeed: 2
   movePoints: {fileID: 0}
   detectionRange: 2

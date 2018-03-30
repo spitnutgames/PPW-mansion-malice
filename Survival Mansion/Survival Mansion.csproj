@@ -295,6 +295,7 @@
     <Compile Include="Assets\Scripts\AI\Movement.cs" />
     <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Scripts\FogOfWar\Samples\Test2D\FogOfWarTest2DPlayer.cs" />
     <Compile Include="Assets\Scripts\FogOfWar\Samples\Test3D\FogOfWarTestEnemy.cs" />
     <Compile Include="Assets\Scripts\FogOfWar\Samples\Test3D\FogOfWarTestGUI.cs" />
