@@ -204,16 +204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1273127374921334}
+  levelManager: {fileID: 0}
   rb2D: {fileID: 50758390019265122}
-  playerSprites:
-  - {fileID: 21300000, guid: d483244c7809c08479a71d7d8cce79e8, type: 3}
-  - {fileID: 21300002, guid: d483244c7809c08479a71d7d8cce79e8, type: 3}
-  - {fileID: 21300004, guid: d483244c7809c08479a71d7d8cce79e8, type: 3}
-  - {fileID: 21300006, guid: d483244c7809c08479a71d7d8cce79e8, type: 3}
-  - {fileID: 21300008, guid: d483244c7809c08479a71d7d8cce79e8, type: 3}
-  - {fileID: 21300010, guid: d483244c7809c08479a71d7d8cce79e8, type: 3}
-  - {fileID: 21300012, guid: d483244c7809c08479a71d7d8cce79e8, type: 3}
-  - {fileID: 21300014, guid: d483244c7809c08479a71d7d8cce79e8, type: 3}
   meleeRange: 0.5
   meleePoint: {fileID: 4871379475953044}
 --- !u!114 &114530271495141080
