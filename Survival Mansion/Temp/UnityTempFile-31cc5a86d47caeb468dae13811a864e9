@@ -163,12 +163,14 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 Assets/Scripts/AI/AIController.cs
+Assets/Scripts/AI/Ainmations.cs
 Assets/Scripts/AI/Attack.cs
 Assets/Scripts/AI/Ghoul.cs
 Assets/Scripts/AI/ILivingEntity.cs
 Assets/Scripts/AI/Movement.cs
 Assets/Scripts/Button.cs
 Assets/Scripts/Camera2DFollow.cs
+Assets/Scripts/CameraManager.cs
 Assets/Scripts/FogOfWar/Samples/Test2D/FogOfWarTest2DPlayer.cs
 Assets/Scripts/FogOfWar/Samples/Test3D/FogOfWarTestEnemy.cs
 Assets/Scripts/FogOfWar/Samples/Test3D/FogOfWarTestGUI.cs

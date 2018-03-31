@@ -228,6 +228,50 @@ CapsuleCollider2D:
   m_Offset: {x: -0.00000047683716, y: -0.018672228}
   m_Size: {x: 0.6016588, y: 1.0373445}
   m_Direction: 0
+--- !u!95 &1201164892 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 95621626771704598, guid: a86ea141a28ba4249af23326ba16f0e5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1414829396}
+--- !u!114 &1201164895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201164884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f634b9de17c5c37468e6851e1538476f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _DeltaForce: {x: 0, y: 0}
+  speed: 2
+  anim: {fileID: 1201164892}
+--- !u!61 &1201164896
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201164884}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1414829396
 Prefab:
   m_ObjectHideFlags: 0
@@ -276,12 +320,12 @@ Prefab:
         type: 2}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 837f95abd53879444bb55ce8d8343887, type: 2}
+      objectReference: {fileID: 9100000, guid: 206f4a45560d3884385c30fd1b5fb8a1, type: 2}
     - target: {fileID: 111921211957053892, guid: a86ea141a28ba4249af23326ba16f0e5,
         type: 2}
       propertyPath: m_Animation
       value: 
-      objectReference: {fileID: 7400000, guid: b3863bb55b92fc1418fb3dca8aecb5a4, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 58013281857777318, guid: a86ea141a28ba4249af23326ba16f0e5,
         type: 2}
       propertyPath: m_Radius
@@ -304,6 +348,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 58013281857777318, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+    - {fileID: 111921211957053892, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1419338856
