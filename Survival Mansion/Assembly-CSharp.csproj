@@ -51,6 +51,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CreateBlueprintDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\LeftClick.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\PlayerInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomChestLootSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomLootSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\WorkingStation.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\FirstPerson\FirstPersonController.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Hotbar\Hotbar.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\CloseInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\EquipmentSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InputManager.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InventoryDesign.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\StorageInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateAttributeDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateItemDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\DragItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\Item.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttributeList.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemDataBaseList.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemOnObject.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemType.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\PickUpItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
      <Compile Include="Assets\Scripts\AI\AIController.cs" />
      <Compile Include="Assets\Scripts\AI\Ainmations.cs" />
      <Compile Include="Assets\Scripts\AI\Attack.cs" />
@@ -86,11 +123,10 @@
      <Compile Include="Assets\Scripts\Interactable objects\Bookshelf.cs" />
      <Compile Include="Assets\Scripts\Interactable objects\Chest.cs" />
      <Compile Include="Assets\Scripts\InteractableObject.cs" />
-     <Compile Include="Assets\Scripts\InventoryScript.cs" />
      <Compile Include="Assets\Scripts\LocomotionAndCombat.cs" />
      <Compile Include="Assets\Scripts\MainLevelGenerator.cs" />
+     <Compile Include="Assets\Scripts\Pause Menu.cs" />
      <Compile Include="Assets\Scripts\Paused.cs" />
-     <Compile Include="Assets\Scripts\PlayerInteract.cs" />
      <Compile Include="Assets\Scripts\PlayerStats.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -149,6 +185,7 @@
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
      <None Include="Assets\Scripts\FogOfWar\Resources\ClearFogShader.shader" />
+     <None Include="Assets\InventoryMaster\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -176,6 +213,12 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
+ <HintPath>C:/Users/brand/Documents/GitHub/PPW-mansion-malice/Survival Mansion/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
+ <HintPath>C:/Users/brand/Documents/GitHub/PPW-mansion-malice/Survival Mansion/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
@@ -187,12 +230,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
- <HintPath>C:/Users/brand/Documents/GitHub/PPW-mansion-malice/Survival Mansion/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
- <HintPath>C:/Users/brand/Documents/GitHub/PPW-mansion-malice/Survival Mansion/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
