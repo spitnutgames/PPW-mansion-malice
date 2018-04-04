@@ -7,7 +7,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(CapsuleCollider2D))]
 
 
 
@@ -28,7 +28,7 @@ public class Ainmations : MonoBehaviour
 
     public Animator anim;
 
-    private BoxCollider2D Boxcollider;
+    private CapsuleCollider2D Boxcollider;
 
 
     private bool IsMoving;
