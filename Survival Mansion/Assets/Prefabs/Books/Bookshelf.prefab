@@ -112,11 +112,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a4a9fb42020f5d249978c4cb1616ae26, type: 3}
   - {fileID: 21300000, guid: b5e349e2bbf40db4bb7646f29bd6ab1f, type: 3}
   bookshelfItems:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1930992922156890, guid: 15e48d73d465f4348a25c1c0fbdc0d2c, type: 2}
+  - {fileID: 1038998435572368, guid: 87cb477615928634b894b41487d45c8e, type: 2}
+  - {fileID: 1987837249851788, guid: 71bdd26592ba1844e80c9ac07e51f8fd, type: 2}
+  - {fileID: 1446234013376160, guid: 20b24f79ee5c24545acf4f57de78bee5, type: 2}
+  - {fileID: 1675145875656266, guid: a052bdfe91b279043ad092ac1b6c43a9, type: 2}
 --- !u!212 &212281782696977092
 SpriteRenderer:
   m_ObjectHideFlags: 1
