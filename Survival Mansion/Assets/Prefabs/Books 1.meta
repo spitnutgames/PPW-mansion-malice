@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Survival Mansion/Assets/Prefabs/Books 1.meta
 guid: fa52c85aa98090b41b495c33dfdfe606
 folderAsset: yes
 timeCreated: 1523060154
+=======
+guid: d91a19c3af7445944b0a0487074b0d5f
+folderAsset: yes
+timeCreated: 1522812146
+>>>>>>> 799734f3e741a3d89cd09afd8d948e94a646256a:Survival Mansion/Assets/Scripts/Books.meta
 licenseType: Pro
 DefaultImporter:
   externalObjects: {}

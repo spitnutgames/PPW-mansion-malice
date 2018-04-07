@@ -6,6 +6,22 @@ TagManager:
   tags:
   - Wall
   - AI
+  - interObject
+  - Slot
+  - Slots
+  - Hotbar
+  - CraftSystem
+  - ResultSlot
+  - Canvas
+  - Item
+  - DraggingItem
+  - Panel
+  - ItemIcon
+  - Tooltip
+  - EventSystem
+  - EquipmentSystem
+  - MainInventory
+  - Timer
   layers:
   - Default
   - TransparentFX
@@ -17,7 +33,7 @@ TagManager:
   - 
   - Wall
   - Solid Object
-  - 
+  - NPC
   - 
   - 
   - 
@@ -42,4 +58,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 961996673
     locked: 0

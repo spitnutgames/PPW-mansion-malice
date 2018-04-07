@@ -300,10 +300,19 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\InventoryMaster\Editor\CraftSystemEditor.cs" />
+    <Compile Include="Assets\InventoryMaster\Editor\EquipmentSystemEditor.cs" />
+    <Compile Include="Assets\InventoryMaster\Editor\HotbarEditor.cs" />
+    <Compile Include="Assets\InventoryMaster\Editor\IM_Manager.cs" />
+    <Compile Include="Assets\InventoryMaster\Editor\InventoryDesignEditor.cs" />
+    <Compile Include="Assets\InventoryMaster\Editor\InventoryEditor.cs" />
+    <Compile Include="Assets\InventoryMaster\Editor\StorageInventoryEditor.cs" />
+    <Compile Include="Assets\InventoryMaster\Editor\TooltipEditor.cs" />
     <Compile Include="Assets\Scripts\FogOfWar\Scripts\Editor\FogOfWarChunkManagerEditor.cs" />
     <Compile Include="Assets\Scripts\FogOfWar\Scripts\Editor\Vector2iPropertyDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\InventoryMaster\readme.txt" />
     <None Include="Assets\Scripts\FogOfWar\Resources\ClearFogShader.shader" />
     <None Include="Assets\Scripts\FogOfWar\Resources\FogOfWarBlurShader.shader" />
     <None Include="Assets\Scripts\FogOfWar\Resources\FogOfWarShader.shader" />
