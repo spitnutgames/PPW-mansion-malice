@@ -326,8 +326,13 @@
     <Compile Include="Assets\Scripts\FogOfWar\Scripts\HideInFog.cs" />
     <Compile Include="Assets\Scripts\FogOfWar\Scripts\Vector2i.cs" />
     <Compile Include="Assets\Scripts\FogOfWar\Scripts\Vector3i.cs" />
+    <Compile Include="Assets\Scripts\Interactable objects\AgilityBook.cs" />
     <Compile Include="Assets\Scripts\Interactable objects\Bookshelf.cs" />
     <Compile Include="Assets\Scripts\Interactable objects\Chest.cs" />
+    <Compile Include="Assets\Scripts\Interactable objects\CraftingBook.cs" />
+    <Compile Include="Assets\Scripts\Interactable objects\GuileBook.cs" />
+    <Compile Include="Assets\Scripts\Interactable objects\StrengthBook.cs" />
+    <Compile Include="Assets\Scripts\Interactable objects\WitBook.cs" />
     <Compile Include="Assets\Scripts\InteractableObject.cs" />
     <Compile Include="Assets\Scripts\InventoryScript.cs" />
     <Compile Include="Assets\Scripts\LocomotionAndCombat.cs" />
