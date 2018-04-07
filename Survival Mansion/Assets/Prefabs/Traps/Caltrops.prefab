@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4171993812241952}
   - component: {fileID: 212050909966919652}
+  - component: {fileID: 114664559454470082}
   m_Layer: 0
   m_Name: Caltrops
   m_TagString: Untagged
@@ -40,6 +41,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114664559454470082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1052071934942956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbadd7e80d5cc184ebe269b5bb1df440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1273127374921334, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+  durability: 10
+  caltropsDamage: 0
 --- !u!212 &212050909966919652
 SpriteRenderer:
   m_ObjectHideFlags: 1

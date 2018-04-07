@@ -9,6 +9,10 @@ public class StrengthBook : MonoBehaviour {
     private int wit;
     private int statIncrease;
 
+    private void Start()
+    {
+        statsScript = player.GetComponent<PlayerStats>();
+    }
     private void UseBook ()
     {
         wit = statsScript.wit / 5;

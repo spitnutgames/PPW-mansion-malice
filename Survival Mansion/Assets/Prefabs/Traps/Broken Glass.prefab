@@ -52,6 +52,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4544ca57bb80e7145aa4360a5b0ce7bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1273127374921334, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+  durability: 5
+  brokenGlassDamage: 0
 --- !u!212 &212515512063540066
 SpriteRenderer:
   m_ObjectHideFlags: 1
