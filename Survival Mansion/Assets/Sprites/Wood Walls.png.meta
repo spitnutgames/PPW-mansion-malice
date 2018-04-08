@@ -126,10 +126,18 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: 19.952606}
+        - {x: 30, y: 19.802414}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_1
@@ -140,10 +148,21 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: 19, y: 30}
+        - {x: 18, y: 29}
+        - {x: -30, y: 5}
+        - {x: -30, y: -9}
+        - {x: 17, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_2
@@ -154,10 +173,20 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: -17, y: -30}
+        - {x: 30, y: -6}
+        - {x: 30, y: 8}
+        - {x: -17, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_3
@@ -168,10 +197,18 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_4
@@ -182,10 +219,22 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      - - {x: -17, y: 17}
+        - {x: 17, y: 17}
+        - {x: 17, y: -17}
+        - {x: -17, y: -17}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_5
@@ -196,10 +245,18 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_6
@@ -210,10 +267,22 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -18, y: -30}
+        - {x: -18, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -30}
+      - - {x: 18, y: 30}
+        - {x: 18, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_7
@@ -224,10 +293,24 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -8, y: 30}
+        - {x: -30, y: -17}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: -17}
+        - {x: 6, y: 30}
+      - - {x: 18, y: 30}
+        - {x: 19, y: 27}
+        - {x: 30, y: 27}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_8
@@ -238,10 +321,20 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: 17}
+        - {x: -6, y: -30}
+        - {x: 8, y: -30}
+        - {x: 30, y: 17}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_9
@@ -252,10 +345,18 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_10
@@ -266,10 +367,22 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: -18}
+        - {x: -30, y: -18}
+      - - {x: -30, y: 30}
+        - {x: -30, y: 18}
+        - {x: 30, y: 18}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_11
@@ -280,10 +393,20 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: -19.802406}
+        - {x: -20.072052, y: -20.047462}
+        - {x: -20.102814, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_12
@@ -294,10 +417,18 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_13
@@ -308,10 +439,18 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -20.102806, y: -30}
+        - {x: -19.802406, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_14
@@ -322,10 +461,20 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: 19.942123, y: 30}
+        - {x: 19.771896, y: -19.794376}
+        - {x: -30, y: -20.06351}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_15
@@ -336,10 +485,20 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: 20.062057}
+        - {x: 19.985855, y: 19.913666}
+        - {x: 19.952606, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_16
@@ -350,10 +509,20 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: -19.952606, y: -30}
+        - {x: -19.834503, y: 19.834454}
+        - {x: 30, y: 19.802406}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wood Walls_17
@@ -364,10 +533,18 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+      physicsShape:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
       tessellationDetail: 0
     outline: []
     physicsShape: []

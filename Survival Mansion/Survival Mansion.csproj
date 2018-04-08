@@ -333,6 +333,7 @@
     <Compile Include="Assets\Scripts\FogOfWar\Scripts\Vector3i.cs" />
     <Compile Include="Assets\Scripts\Interactable objects\Bookshelf.cs" />
     <Compile Include="Assets\Scripts\Interactable objects\Chest.cs" />
+    <Compile Include="Assets\Scripts\Interactable objects\EndTable.cs" />
     <Compile Include="Assets\Scripts\InteractableObject.cs" />
     <Compile Include="Assets\Scripts\InventoryScript.cs" />
     <Compile Include="Assets\Scripts\LocomotionAndCombat.cs" />

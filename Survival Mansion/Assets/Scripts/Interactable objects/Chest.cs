@@ -20,7 +20,7 @@ public class Chest : MonoBehaviour {
                 this.GetComponent<SpriteRenderer>().sprite = chestStates[1];
                 chestOpen = true;
                 //generate items from chest
-                for (int i = 0; i < Random.Range(1, 1); i++)
+                for (int i = 0; i < Random.Range(0, 3); i++)
                 {
                     GameObject clone;
                     clone = Instantiate(chestItems[Random.Range(0, chestItems.Length - 1)], this.transform);
