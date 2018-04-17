@@ -773,20 +773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54b62b71aaf685041ae3488261059b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalSlotPositionX: 2
-  finalSlotPositionY: -90
-  leftArrowPositionX: -118
-  leftArrowPositionY: 0
-  rightArrowPositionX: 0
-  rightArrowPositionY: 0
-  leftArrowRotation: 0
-  rightArrowRotation: 0
-  finalSlotImage: {fileID: 1346955575}
-  arrowImage: {fileID: 0}
-  itemInCraftSystem: []
-  itemInCraftSystemGameObject: []
-  possibleItems: []
-  possibletoCreate: 
 --- !u!114 &289901207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,20 +784,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd39910a9c72f2242abbf1906ed915d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotDesignTemp: {fileID: 1143500008}
-  slotDesign: {fileID: 1143500008}
-  inventoryDesign: {fileID: 289901209}
-  showInventoryCross: 1
-  inventoryCrossImage: {fileID: 1346955575}
-  inventoryCrossRectTransform: {fileID: 1346955573}
-  inventoryCrossPosX: 0
-  inventoryCrossPosY: 0
-  inventoryTitle: Crafting
-  inventoryTitleText: {fileID: 1106597034}
-  inventoryTitlePosX: 0
-  inventoryTitlePosY: 170
-  panelSizeX: 237
-  panelSizeY: 303
 --- !u!114 &289901208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -823,38 +795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01861eba440b8cb4e90bafdad2b00d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabCanvasWithPanel: {fileID: 100000, guid: 9d5134176cec6254a90845c160aaed68,
-    type: 2}
-  prefabSlot: {fileID: 186286, guid: 86bd66a1aad581444a3c8b4999ca67b1, type: 2}
-  prefabSlotContainer: {fileID: 100000, guid: 2343060c43f7ce94f887882415313e92, type: 2}
-  prefabItem: {fileID: 100002, guid: 8beb0b8751c81ea4e9f32ea69a6856c3, type: 2}
-  prefabDraggingItemContainer: {fileID: 100000, guid: 2af5d33a89bbcd5429f9dca7d340fa20,
-    type: 2}
-  prefabPanel: {fileID: 100006, guid: a58e4d3c31368a64eb9518488df4e15a, type: 2}
-  itemDatabase: {fileID: 11400000, guid: 964f317a23cc9f0418bb3778fccd8ebb, type: 2}
-  inventoryTitle: 
-  PanelRectTransform: {fileID: 289901205}
-  PanelImage: {fileID: 0}
-  SlotContainer: {fileID: 900466999}
-  DraggingItemContainer: {fileID: 0}
-  SlotContainerRectTransform: {fileID: 900467000}
-  SlotGridLayout: {fileID: 900467001}
-  SlotGridRectTransform: {fileID: 900467000}
-  mainInventory: 0
-  ItemsInInventory: []
-  height: 3
-  width: 3
-  stackable: 1
-  slotSize: 55
-  iconSize: 45
-  paddingBetweenX: 5
-  paddingBetweenY: 5
-  paddingLeft: 25
-  paddingRight: 25
-  paddingBottom: 96
-  paddingTop: 35
-  positionNumberX: 18
-  positionNumberY: 17
 --- !u!114 &289901209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1502,20 +1442,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd39910a9c72f2242abbf1906ed915d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotDesignTemp: {fileID: 640524475}
-  slotDesign: {fileID: 640524475}
-  inventoryDesign: {fileID: 440312432}
-  showInventoryCross: 0
-  inventoryCrossImage: {fileID: 1544380690}
-  inventoryCrossRectTransform: {fileID: 1544380688}
-  inventoryCrossPosX: 0
-  inventoryCrossPosY: 0
-  inventoryTitle: Inventory
-  inventoryTitleText: {fileID: 1591879740}
-  inventoryTitlePosX: 0
-  inventoryTitlePosY: 130
-  panelSizeX: 455
-  panelSizeY: 260
 --- !u!114 &440312431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1527,66 +1453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01861eba440b8cb4e90bafdad2b00d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabCanvasWithPanel: {fileID: 100000, guid: 9d5134176cec6254a90845c160aaed68,
-    type: 2}
-  prefabSlot: {fileID: 1070524138878348, guid: 86bd66a1aad581444a3c8b4999ca67b1, type: 2}
-  prefabSlotContainer: {fileID: 100000, guid: 2343060c43f7ce94f887882415313e92, type: 2}
-  prefabItem: {fileID: 100002, guid: 8beb0b8751c81ea4e9f32ea69a6856c3, type: 2}
-  prefabDraggingItemContainer: {fileID: 100000, guid: 2af5d33a89bbcd5429f9dca7d340fa20,
-    type: 2}
-  prefabPanel: {fileID: 100006, guid: a58e4d3c31368a64eb9518488df4e15a, type: 2}
-  itemDatabase: {fileID: 11400000, guid: 964f317a23cc9f0418bb3778fccd8ebb, type: 2}
-  inventoryTitle: 
-  PanelRectTransform: {fileID: 440312429}
-  PanelImage: {fileID: 0}
-  SlotContainer: {fileID: 1255652858}
-  DraggingItemContainer: {fileID: 0}
-  SlotContainerRectTransform: {fileID: 1255652859}
-  SlotGridLayout: {fileID: 1255652860}
-  SlotGridRectTransform: {fileID: 1255652859}
-  mainInventory: 1
-  ItemsInInventory:
-  - itemName: Apple
-    itemID: 12
-    itemDesc: 'This apple could be good for applejuice.
-
-      + 10 Health'
-    itemIcon: {fileID: 21300000, guid: a4d3f378d1a88f346af15ee906321f2a, type: 3}
-    itemModel: {fileID: 100000, guid: 40da790cc27843b45b9c255c8d996b43, type: 2}
-    itemValue: 1
-    itemType: 2
-    itemWeight: 0
-    maxStack: 5
-    indexItemInList: -1
-    rarity: 100
-    itemAttributes:
-    - attributeName: Health
-      attributeValue: 10
-  - itemName: Machinegun
-    itemID: 24
-    itemDesc: 
-    itemIcon: {fileID: 21300000, guid: dd0061a2f7a74a04ebeb40c4b85e2557, type: 3}
-    itemModel: {fileID: 100000, guid: 40da790cc27843b45b9c255c8d996b43, type: 2}
-    itemValue: 1
-    itemType: 16
-    itemWeight: 0
-    maxStack: 1
-    indexItemInList: 0
-    rarity: 1
-    itemAttributes: []
-  height: 4
-  width: 8
-  stackable: 1
-  slotSize: 50
-  iconSize: 45
-  paddingBetweenX: 5
-  paddingBetweenY: 5
-  paddingLeft: 10
-  paddingRight: 10
-  paddingBottom: 10
-  paddingTop: 35
-  positionNumberX: 16
-  positionNumberY: 16
 --- !u!114 &440312432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2366,20 +2232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd39910a9c72f2242abbf1906ed915d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotDesignTemp: {fileID: 1020309603}
-  slotDesign: {fileID: 1020309603}
-  inventoryDesign: {fileID: 746284428}
-  showInventoryCross: 0
-  inventoryCrossImage: {fileID: 0}
-  inventoryCrossRectTransform: {fileID: 0}
-  inventoryCrossPosX: 0
-  inventoryCrossPosY: 0
-  inventoryTitle: Character
-  inventoryTitleText: {fileID: 2083829738}
-  inventoryTitlePosX: 0
-  inventoryTitlePosY: 152
-  panelSizeX: 220
-  panelSizeY: 305
 --- !u!114 &746284426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2391,8 +2243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c01820065a20d4b9355552215eb5ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotsInTotal: 8
-  itemTypeOfSlots: 01000000040000000600000007000000050000000b0000000e0000000d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!114 &746284427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2404,38 +2254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01861eba440b8cb4e90bafdad2b00d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabCanvasWithPanel: {fileID: 100000, guid: 9d5134176cec6254a90845c160aaed68,
-    type: 2}
-  prefabSlot: {fileID: 1070524138878348, guid: 86bd66a1aad581444a3c8b4999ca67b1, type: 2}
-  prefabSlotContainer: {fileID: 100000, guid: 2343060c43f7ce94f887882415313e92, type: 2}
-  prefabItem: {fileID: 100002, guid: 8beb0b8751c81ea4e9f32ea69a6856c3, type: 2}
-  prefabDraggingItemContainer: {fileID: 100000, guid: 2af5d33a89bbcd5429f9dca7d340fa20,
-    type: 2}
-  prefabPanel: {fileID: 100006, guid: a58e4d3c31368a64eb9518488df4e15a, type: 2}
-  itemDatabase: {fileID: 11400000, guid: 964f317a23cc9f0418bb3778fccd8ebb, type: 2}
-  inventoryTitle: 
-  PanelRectTransform: {fileID: 746284424}
-  PanelImage: {fileID: 0}
-  SlotContainer: {fileID: 807069472}
-  DraggingItemContainer: {fileID: 0}
-  SlotContainerRectTransform: {fileID: 807069473}
-  SlotGridLayout: {fileID: 807069474}
-  SlotGridRectTransform: {fileID: 807069473}
-  mainInventory: 0
-  ItemsInInventory: []
-  height: 4
-  width: 2
-  stackable: 0
-  slotSize: 50
-  iconSize: 45
-  paddingBetweenX: 100
-  paddingBetweenY: 20
-  paddingLeft: 10
-  paddingRight: 10
-  paddingBottom: 10
-  paddingTop: 35
-  positionNumberX: 0
-  positionNumberY: 0
 --- !u!114 &746284428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2781,7 +2599,7 @@ Prefab:
         type: 2}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1621856640}
+      objectReference: {fileID: 1299374874}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e4d67ae26a15ce4092b974e3ed734e9, type: 2}
   m_IsPrefabParent: 0
@@ -3168,6 +2986,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 988441279}
+--- !u!1001 &1003964725
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114406441453271628, guid: a86ea141a28ba4249af23326ba16f0e5,
+        type: 2}
+      propertyPath: levelManager
+      value: 
+      objectReference: {fileID: 1956795963}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1020309601
 GameObject:
   m_ObjectHideFlags: 0
@@ -3880,86 +3745,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1198910354}
---- !u!1 &1201164884 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1273127374921334, guid: a86ea141a28ba4249af23326ba16f0e5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1414829396}
---- !u!70 &1201164891
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1201164884}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.00000047683716, y: -0.018672228}
-  m_Size: {x: 0.6016588, y: 1.0373445}
-  m_Direction: 0
---- !u!95 &1201164892 stripped
-Animator:
-  m_PrefabParentObject: {fileID: 95621626771704598, guid: a86ea141a28ba4249af23326ba16f0e5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1414829396}
---- !u!114 &1201164895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1201164884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f634b9de17c5c37468e6851e1538476f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _DeltaForce: {x: 0, y: 0}
-  speed: 2
-  anim: {fileID: 1201164892}
---- !u!61 &1201164896
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1201164884}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &1201164897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1201164884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0db4493228a4ba442a891316e3ee246f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: {fileID: 440312428}
-  characterSystem: {fileID: 746284423}
-  craftSystem: {fileID: 289901204}
-  HPMANACanvas: {fileID: 0}
-  currentHealth: 60
 --- !u!1 &1227263342
 GameObject:
   m_ObjectHideFlags: 0
@@ -4321,6 +4106,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268662047}
+--- !u!4 &1299374874 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1003964725}
 --- !u!1 &1315084319
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,7 +4226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af920eb4320ed2a43abc83ec92c024cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  temp: 0
 --- !u!114 &1346955575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4709,36 +4498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01861eba440b8cb4e90bafdad2b00d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabCanvasWithPanel: {fileID: 0}
-  prefabSlot: {fileID: 1070524138878348, guid: 86bd66a1aad581444a3c8b4999ca67b1, type: 2}
-  prefabSlotContainer: {fileID: 0}
-  prefabItem: {fileID: 0}
-  prefabDraggingItemContainer: {fileID: 0}
-  prefabPanel: {fileID: 0}
-  itemDatabase: {fileID: 0}
-  inventoryTitle: 
-  PanelRectTransform: {fileID: 1365111291}
-  PanelImage: {fileID: 0}
-  SlotContainer: {fileID: 0}
-  DraggingItemContainer: {fileID: 0}
-  SlotContainerRectTransform: {fileID: 0}
-  SlotGridLayout: {fileID: 0}
-  SlotGridRectTransform: {fileID: 0}
-  mainInventory: 0
-  ItemsInInventory: []
-  height: 0
-  width: 0
-  stackable: 0
-  slotSize: 0
-  iconSize: 0
-  paddingBetweenX: 0
-  paddingBetweenY: 0
-  paddingLeft: 0
-  paddingRight: 0
-  paddingBottom: 0
-  paddingTop: 0
-  positionNumberX: 0
-  positionNumberY: 0
 --- !u!114 &1365111293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4775,85 +4534,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1001 &1414829396
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 16.145
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 4.447
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114406441453271628, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: levelManager
-      value: 
-      objectReference: {fileID: 1956795963}
-    - target: {fileID: 95621626771704598, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 206f4a45560d3884385c30fd1b5fb8a1, type: 2}
-    - target: {fileID: 111921211957053892, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 58013281857777318, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: m_Radius
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114394064795664140, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: texture
-      value: 
-      objectReference: {fileID: 2800000, guid: aedb60bb6d3f6d14982de16ca694873e, type: 3}
-    - target: {fileID: 114394064795664140, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: radius
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114394064795664140, guid: a86ea141a28ba4249af23326ba16f0e5,
-        type: 2}
-      propertyPath: offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 58013281857777318, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-    - {fileID: 111921211957053892, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: a86ea141a28ba4249af23326ba16f0e5, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1419338856
 GameObject:
   m_ObjectHideFlags: 0
@@ -5355,11 +5035,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1596663172}
---- !u!4 &1621856640 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4905859547784518, guid: a86ea141a28ba4249af23326ba16f0e5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1414829396}
 --- !u!1 &1651773371
 GameObject:
   m_ObjectHideFlags: 0
@@ -6036,7 +5711,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1956795965
 MonoBehaviour:
@@ -6055,6 +5730,9 @@ MonoBehaviour:
   - {fileID: 1695782310788548, guid: 2c577e247b00b784a993441aa4d2798d, type: 2}
   - {fileID: 1111790537212252, guid: 59e1d157832b49b42b9bf50b8aee329a, type: 2}
   - {fileID: 1465403601769766, guid: cd2d808db8e98144c97689ec1b371617, type: 2}
+  - {fileID: 1553542243762230, guid: 5eda6b67bb54ab74f856a614742f5334, type: 2}
+  - {fileID: 1419557342277962, guid: 4e79247a48d84f04a85535d032021299, type: 2}
+  - {fileID: 1519132872281866, guid: b4ff3700f369f644c9f47cd80d22589f, type: 2}
 --- !u!114 &1956795966
 MonoBehaviour:
   m_ObjectHideFlags: 0

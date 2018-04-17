@@ -17,4 +17,24 @@ public class PlayerStats : MonoBehaviour {
 
     public int wit = 500;//Determines how much stress a character can take before breaking down and becoming useless. Also determines the speed of researching new options.
                          //Eventually allows ever fancier research, such as turrets.
+    void StrengthIncrease (int strengthIncrease)
+    {
+        strength = strength + strengthIncrease;
+    }
+    void AgilityIncrease(int agilityIncrease)
+    {
+        agility = agility + agilityIncrease;
+    }
+    void GuileIncrease(int guileIncrease)
+    {
+        guile = guile + guileIncrease;
+    }
+    void CraftingIncrease(int craftingIncrease)
+    {
+        crafting = crafting + craftingIncrease;
+    }
+    void WitIncrease(int witIncrease)
+    {
+        wit = wit + witIncrease;
+    }
 }
