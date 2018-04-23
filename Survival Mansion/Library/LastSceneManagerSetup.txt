@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Start Level.unity
+- path: Assets/Behavior Designer Movement/Scene/Scene.unity
   isLoaded: 1
   isActive: 1
